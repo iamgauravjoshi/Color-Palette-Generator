@@ -1,0 +1,24 @@
+.color-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  .color-box:hover {
+    transform: scale(1.1);
+  }
+  
+  .color-code {
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
